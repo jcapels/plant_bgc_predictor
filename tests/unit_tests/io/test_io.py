@@ -1,16 +1,16 @@
 import numpy as np
 import pandas as pd
 
-from plants_bgc_predictor.io import read_csv, write_csv, CSVReader, CSVWriter
+from plant_bgc_predictor.io import read_csv, write_csv, CSVReader, CSVWriter
 
 import os
 from unittest import TestCase
 
-from plants_bgc_predictor.io.excel import read_excel, write_excel, ExcelReader, ExcelWriter
-from plants_bgc_predictor.io.h5 import write_h5, read_h5
-from plants_bgc_predictor.io.json import write_json, read_json
-from plants_bgc_predictor.io.pickle import write_pickle, read_pickle
-from plants_bgc_predictor.io.yaml import YAMLReader, YAMLWriter, read_yaml, write_yaml
+from plant_bgc_predictor.io.excel import read_excel, write_excel, ExcelReader, ExcelWriter
+from plant_bgc_predictor.io.h5 import write_h5, read_h5
+from plant_bgc_predictor.io.json import write_json, read_json
+from plant_bgc_predictor.io.pickle import write_pickle, read_pickle
+from plant_bgc_predictor.io.yaml import YAMLReader, YAMLWriter, read_yaml, write_yaml
 from tests import TEST_DIR
 
 

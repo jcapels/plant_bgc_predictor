@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 from typing import Any, List
 
-from plants_sm.io.commons import FilePathOrBuffer, get_buffer
+from plant_bgc_predictor.io.commons import FilePathOrBuffer, get_buffer
 
 
 class Reader(metaclass=ABCMeta):

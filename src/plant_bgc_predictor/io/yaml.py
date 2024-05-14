@@ -4,9 +4,9 @@ import dask
 from yaml import CLoader as Loader, safe_load
 from yaml import load, dump
 
-from plants_sm.io.commons import get_handle_to_read, get_handle_to_write, FilePathOrBuffer
-from plants_sm.io.reader import Reader
-from plants_sm.io.writer import Writer
+from plant_bgc_predictor.io.commons import get_handle_to_read, get_handle_to_write, FilePathOrBuffer
+from plant_bgc_predictor.io.reader import Reader
+from plant_bgc_predictor.io.writer import Writer
 
 
 class YAMLReader(Reader):

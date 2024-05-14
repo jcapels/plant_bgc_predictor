@@ -3,3 +3,7 @@ pandas
 matplotlib
 seaborn
 numpy
+requests
+h5py
+dask
+openpyxl

@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 from contextlib import contextmanager
 from typing import List, Any
 
-from plants_sm.io.commons import FilePathOrBuffer, get_path, get_buffer
+from plant_bgc_predictor.io.commons import FilePathOrBuffer, get_path, get_buffer
 
 
 class Writer(metaclass=ABCMeta):

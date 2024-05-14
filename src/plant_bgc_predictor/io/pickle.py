@@ -4,9 +4,9 @@ from typing import List, Any
 
 import torch
 
-from plants_sm.io.commons import FilePathOrBuffer
-from plants_sm.io.reader import Reader
-from plants_sm.io.writer import Writer
+from plant_bgc_predictor.io.commons import FilePathOrBuffer
+from plant_bgc_predictor.io.reader import Reader
+from plant_bgc_predictor.io.writer import Writer
 
 import tracemalloc
 
